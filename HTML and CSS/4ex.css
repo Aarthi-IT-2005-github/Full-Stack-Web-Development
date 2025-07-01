@@ -1,0 +1,38 @@
+.str{
+    background-color: green;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    transition:box-sizing 0.15s ;
+    cursor:pointer;
+}
+.str:hover{
+    padding:30px;
+    margin: 10px;
+    box-sizing: 50px;
+}
+.str:active{
+    background-color: blue;
+}
+.shadow{
+    background-color: green;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    cursor:pointer;
+    transition: box-shadow 0.15s;
+}
+.shadow:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+.one ,.two ,.three{
+background-color: green;
+    color: white;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20;
+    padding-inline-start: 20px;
+    cursor:pointer;
+    vertical-align: top;
+
+}

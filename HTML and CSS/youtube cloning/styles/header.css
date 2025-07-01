@@ -1,0 +1,128 @@
+.header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(190, 189, 189);
+    z-index: 100;
+    cursor: pointer;
+
+
+}
+.left-section{
+    /*background-color: aqua; use back ground is just understand the flex shrink and growing*/
+    /*width: 150px;here also this fixed 150 px it does not adjust or resize it*/
+    align-items: center;
+    display: flex;/*util u just diplay it flex this line is more important here util u did not mention this line regular div container*/
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+.youtube-logo{
+  height: 20px;
+ 
+}
+.middle-section{
+   /*  here this is used to just understand how design the flex property background-color: bisque;*/
+    flex: 1;/*here flex is used to flexibile to the adjustments here it automatically adjust that search bar*/
+    margin-right: 35px;
+    margin-left: 70px;
+    max-width: 500px;/*here this line of code done the less than of 300px only shrink and growing it have limit to grow with in the 300px that why we are gaving htis line of code*/
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px
+    rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder{/*here this line used to design the placceholder content like if search bar have place holder search this worm going to be design through this line*/
+  font-family: Roboto,Arial;
+  font-size: 16px;
+}
+.search-button{
+ height: 40px;
+ width: 66px;
+ background-color: rgb(240, 240, 240);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(192, 192, 192);
+ margin-left: -1px;
+ margin-right: 10px;
+}
+.search-icon{
+  height: 25px;
+  margin-top:4px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+
+}
+.voice-icon{
+    height: 20px;
+    margin-top: 4px;
+   
+
+}
+.right-section{
+    /*background-color: aqua;*/
+    width:180px;/*similarly here also fixed 200 px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload-icon{
+ height: 24px;
+}
+.youtube-apps-icon{
+ height: 24px;
+}
+.notification-icon{
+ height: 24px;
+}
+.notification-icon-container{
+  position: relative;
+}
+.notification-count{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color:white;
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+.current-user-picture{
+ height: 32px;
+ border-radius: 16px;
+}

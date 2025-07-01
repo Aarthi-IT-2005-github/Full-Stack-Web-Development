@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridpractice</title>
+</head>
+
+<body style="padding-bottom: 1000px;">
+    <div style="
+    display: grid;
+    grid-template-columns: 100px 100px 200px ;
+    margin-top: 30px
+    ">
+        <div style="background-color: aqua;">div 1</div>
+        <div style="background-color: bisque;">div 2<p>text</p>
+        </div>
+    </div>
+
+
+    <div style="
+   display: grid;
+   grid-template-columns: 100px 100px 200px ;
+   margin-top: 30px;
+   ">
+        <div style="background-color: aqua;">div 1</div>
+        <div style="background-color: bisque;">div 2<p>text</p>
+        </div>
+        <div style="background-color: aqua;">div 3</div>
+        <div style="background-color: bisque;">100px<p>text</p>
+        </div>
+    </div>
+
+    <div style="
+   display: grid;
+   grid-template-columns: 100px 1fr;(free space=1fr)
+   margin-top: 30px;
+   ">
+
+        <div style="background-color: aqua;">div 3</div>
+        <div style="background-color: bisque;">1fr</div>
+    </div>
+
+
+    <div style="
+   display: grid;
+   grid-template-columns: 100px 1fr 2fr;
+   margin-top: 30px;
+   ">
+
+        <div style="background-color: aqua;">div 3</div>
+        <div style="background-color: bisque;">1fr</div>
+        <div style="background-color: rgb(211, 131, 33);">2fr</div>
+    </div>
+    
+    <div style="
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 30px;
+   column-gap: 20px;
+   row-gap: 40px;
+   ">
+   
+   <div style="background-color: aqua; height: 200px;">div 3</div>
+   <div style="background-color: bisque; height: 200px;">1fr</div>
+   <div style="background-color: rgb(212, 203, 193); height: 200px;">2fr</div>
+   <div style="background-color: rgb(207, 240, 240); height: 200px;">div 3</div>
+   <div style="background-color: rgb(131, 122, 111); height: 200px;">1fr</div>
+   <div style="background-color: rgb(211, 131, 33); height: 200px;">2fr</div
+  </div> 
+</body>
+
+</html>
